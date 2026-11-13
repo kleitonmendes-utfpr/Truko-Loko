@@ -1,0 +1,78 @@
+[
+    {
+        "merged": "com.trucoloko.app-debug-10:/drawable_bg_app.xml.flat",
+        "source": "com.trucoloko.app-main-12:/drawable/bg_app.xml"
+    },
+    {
+        "merged": "com.trucoloko.app-debug-10:/drawable_bg_card.xml.flat",
+        "source": "com.trucoloko.app-main-12:/drawable/bg_card.xml"
+    },
+    {
+        "merged": "com.trucoloko.app-debug-10:/layout_screen_game.xml.flat",
+        "source": "com.trucoloko.app-main-12:/layout/screen_game.xml"
+    },
+    {
+        "merged": "com.trucoloko.app-debug-10:/layout_screen_defeat.xml.flat",
+        "source": "com.trucoloko.app-main-12:/layout/screen_defeat.xml"
+    },
+    {
+        "merged": "com.trucoloko.app-debug-10:/drawable_bg_card_active.xml.flat",
+        "source": "com.trucoloko.app-main-12:/drawable/bg_card_active.xml"
+    },
+    {
+        "merged": "com.trucoloko.app-debug-10:/layout_screen_ranking.xml.flat",
+        "source": "com.trucoloko.app-main-12:/layout/screen_ranking.xml"
+    },
+    {
+        "merged": "com.trucoloko.app-debug-10:/layout_screen_profile.xml.flat",
+        "source": "com.trucoloko.app-main-12:/layout/screen_profile.xml"
+    },
+    {
+        "merged": "com.trucoloko.app-debug-10:/layout_screen_victory.xml.flat",
+        "source": "com.trucoloko.app-main-12:/layout/screen_victory.xml"
+    },
+    {
+        "merged": "com.trucoloko.app-debug-10:/drawable_bg_danger.xml.flat",
+        "source": "com.trucoloko.app-main-12:/drawable/bg_danger.xml"
+    },
+    {
+        "merged": "com.trucoloko.app-debug-10:/drawable_bg_primary_button.xml.flat",
+        "source": "com.trucoloko.app-main-12:/drawable/bg_primary_button.xml"
+    },
+    {
+        "merged": "com.trucoloko.app-debug-10:/layout_include_bottom_nav.xml.flat",
+        "source": "com.trucoloko.app-main-12:/layout/include_bottom_nav.xml"
+    },
+    {
+        "merged": "com.trucoloko.app-debug-10:/drawable_bg_felt.xml.flat",
+        "source": "com.trucoloko.app-main-12:/drawable/bg_felt.xml"
+    },
+    {
+        "merged": "com.trucoloko.app-debug-10:/drawable_bg_secondary_button.xml.flat",
+        "source": "com.trucoloko.app-main-12:/drawable/bg_secondary_button.xml"
+    },
+    {
+        "merged": "com.trucoloko.app-debug-10:/layout_screen_lobby.xml.flat",
+        "source": "com.trucoloko.app-main-12:/layout/screen_lobby.xml"
+    },
+    {
+        "merged": "com.trucoloko.app-debug-10:/layout_screen_spectator.xml.flat",
+        "source": "com.trucoloko.app-main-12:/layout/screen_spectator.xml"
+    },
+    {
+        "merged": "com.trucoloko.app-debug-10:/layout_screen_round_result.xml.flat",
+        "source": "com.trucoloko.app-main-12:/layout/screen_round_result.xml"
+    },
+    {
+        "merged": "com.trucoloko.app-debug-10:/drawable_bg_card_gold.xml.flat",
+        "source": "com.trucoloko.app-main-12:/drawable/bg_card_gold.xml"
+    },
+    {
+        "merged": "com.trucoloko.app-debug-10:/drawable_bg_gold_button.xml.flat",
+        "source": "com.trucoloko.app-main-12:/drawable/bg_gold_button.xml"
+    },
+    {
+        "merged": "com.trucoloko.app-debug-10:/layout_include_header.xml.flat",
+        "source": "com.trucoloko.app-main-12:/layout/include_header.xml"
+    }
+]

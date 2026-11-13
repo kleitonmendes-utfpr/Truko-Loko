@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="64dp"
+    android:background="#F201120A"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:paddingHorizontal="8dp">
+
+    <TextView
+        style="@style/Caption"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:onClick="openLobby"
+        android:text="▱&#10;Jogar"
+        android:textColor="@color/mint" />
+
+    <TextView
+        style="@style/Caption"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:onClick="openGame"
+        android:text="▥&#10;Salas"
+        android:textColor="@color/muted" />
+
+    <TextView
+        style="@style/Caption"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:onClick="openRanking"
+        android:text="▥&#10;Ranking"
+        android:textColor="@color/muted" />
+
+    <TextView
+        style="@style/Caption"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:onClick="openProfile"
+        android:text="●&#10;Perfil"
+        android:textColor="@color/muted" />
+</LinearLayout>

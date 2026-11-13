@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg">#04170F</color>
+    <color name="bg_deep">#010B07</color>
+    <color name="surface">#0B1F17</color>
+    <color name="surface_alt">#102C20</color>
+    <color name="surface_soft">#1A2E25</color>
+    <color name="mint">#4EDEA3</color>
+    <color name="green">#10B981</color>
+    <color name="text">#D1E8DA</color>
+    <color name="muted">#BBCABF</color>
+    <color name="subtle">#71857A</color>
+    <color name="amber">#FFB95F</color>
+    <color name="amber_dark">#EE9800</color>
+    <color name="red">#FF7A73</color>
+    <color name="red_deep">#93000A</color>
+    <color name="line">#3C4A42</color>
+    <color name="white">#FFFFFF</color>
+    <color name="transparent">#00000000</color>
+</resources>

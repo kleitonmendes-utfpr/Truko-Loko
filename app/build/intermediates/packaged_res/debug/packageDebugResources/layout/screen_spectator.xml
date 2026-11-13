@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_felt"
+    android:padding="16dp">
+
+    <TextView android:id="@+id/live" style="@style/Caption" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="● AO VIVO   ◉ 14&#10;#TL-4829" android:textColor="@color/red" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:id="@+id/round" style="@style/Card" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="⌛ RODADA 4 DE 5   •   4 Cartas / Jogador" android:textColor="@color/amber" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/live" />
+    <TextView android:id="@+id/topPlayer" android:layout_width="240dp" android:layout_height="70dp" android:layout_marginTop="8dp" android:background="@drawable/bg_card_active" android:gravity="center" android:text="Ⓜ  Marcão_Truco   VEZ&#10;     ♥♥♥♡♡   •   Fez: 2/3" android:textColor="@color/text" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/round" />
+    <TextView android:id="@+id/arena" android:layout_width="0dp" android:layout_height="0dp" android:gravity="center" android:text="Leticia_Reis                         Seu_Valdir&#10;♥♥  Aguardando                   Eliminado R2&#10;&#10;&#10;                    😱&#10;             ◉ POTE: 2.500 FICHAS ◉&#10;&#10;              Q♠     4♣  7♥&#10;                    TRUCO PEDIDO!" android:textColor="@color/text" android:textSize="14sp" app:layout_constraintBottom_toTopOf="@id/spectator" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/topPlayer" />
+    <TextView android:id="@+id/spectator" android:layout_width="0dp" android:layout_height="64dp" android:background="@drawable/bg_card" android:gravity="center" android:text="VOCÊ   Beto       ELIMINADO R4       ◉&#10;Assistindo em modo Espectador" android:textColor="@color/text" app:layout_constraintBottom_toTopOf="@id/reactions" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+    <TextView android:id="@+id/reactions" style="@style/SecondaryButton" android:layout_width="0dp" android:layout_height="48dp" android:layout_marginTop="8dp" android:text="❉     🃏     ♨     ♚     😱     ▣" app:layout_constraintBottom_toTopOf="@id/actions" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+    <LinearLayout android:id="@+id/actions" android:layout_width="0dp" android:layout_height="52dp" android:layout_marginTop="8dp" android:orientation="horizontal" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent">
+        <TextView style="@style/SecondaryButton" android:layout_width="0dp" android:layout_height="match_parent" android:layout_marginEnd="5dp" android:layout_weight="1" android:onClick="openLobby" android:text="Sair da Sala" />
+        <TextView style="@style/PrimaryButton" android:layout_width="0dp" android:layout_height="match_parent" android:layout_marginStart="5dp" android:layout_weight="1" android:onClick="openGame" android:text="↻ Próxima Partida" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

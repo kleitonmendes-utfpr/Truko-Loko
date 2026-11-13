@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_app">
+
+    <include android:id="@+id/header" layout="@layout/include_header" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ScrollView android:layout_width="0dp" android:layout_height="0dp" android:fillViewport="true" android:paddingHorizontal="16dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/header">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_horizontal" android:orientation="vertical" android:paddingVertical="16dp">
+            <TextView style="@style/Caption" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="⌛ RODADA DE 3 CARTAS" android:textColor="@color/amber" />
+            <TextView style="@style/Title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="FIM DA RODADA 3" />
+            <TextView style="@style/Body" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center" android:text="Contagem de vazas concluída • Apuração de penalidades" />
+            <LinearLayout style="@style/Card" android:layout_width="match_parent" android:layout_height="430dp" android:layout_marginTop="18dp" android:gravity="bottom" android:orientation="vertical">
+                <TextView style="@style/SectionTitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="●  Jogador (Você)             -2 VIDAS&#10;    Palpite: 3  •  Fez: 1          ♥♥♥♥♡" />
+                <Space android:layout_width="1dp" android:layout_height="0dp" android:layout_weight="1" />
+                <TextView android:layout_width="match_parent" android:layout_height="64dp" android:background="@drawable/bg_danger" android:gravity="center" android:text="✹ EXPLOSÃO DE VIDA: Palpite Furado!          -2&#10;Diferença de 2 pontos do seu palpite inicial." android:textColor="@color/white" />
+                <TextView style="@style/Body" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="SUAS CARTAS JOGADAS NA RODADA              1 VITÓRIA&#10;&#10;A♠  Ganhou Vaza 1       3♣ Derrotado       7♦ Derrotado" android:textColor="@color/mint" />
+            </LinearLayout>
+            <TextView style="@style/SectionTitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="18dp" android:text="ADVERSÁRIOS NA MESA" />
+            <TextView style="@style/Card" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="B   Beto        PERFEITO!                 ♥ 0 Vidas Perdidas&#10;    Palpite: 2 | Fez: 2                         ♥ 5 vidas" android:textColor="@color/text" />
+            <TextView style="@style/Card" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="C   Camila      Errou Palpite                         -1 Vida&#10;    Palpite: 0 | Fez: 1                         ♥ 3 restantes" android:textColor="@color/text" />
+            <TextView style="@style/GoldButton" android:layout_width="match_parent" android:layout_height="54dp" android:layout_marginTop="18dp" android:onClick="openVictory" android:text="CONTINUAR →" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

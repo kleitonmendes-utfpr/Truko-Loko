@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_app">
+
+    <include android:id="@+id/header" layout="@layout/include_header" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ScrollView android:layout_width="0dp" android:layout_height="0dp" android:fillViewport="true" android:paddingHorizontal="16dp" app:layout_constraintBottom_toTopOf="@id/bottomNav" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/header">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:paddingVertical="12dp">
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:background="@drawable/bg_card_gold" android:padding="16dp" android:text="◷ Termina em: 4d 18h&#10;Temporada 4: Mestre do Blefe                    🏆&#10;Premiação: 500.000 Fichas + Troféu Zap de Ouro&#10;&#10;◎ Manilha Velha Fixa (Zap, 7 Copas, Espadilha, Ouros)" android:textColor="@color/text" android:textSize="14sp" />
+            <TextView style="@style/SecondaryButton" android:layout_width="match_parent" android:layout_height="44dp" android:layout_marginTop="14dp" android:text="Global                 Amigos                 Divisão Ouro" />
+            <TextView android:layout_width="match_parent" android:layout_height="220dp" android:gravity="center" android:text="                         🥇&#10;                    ReiDoBlefe&#10;                       5.450&#10;&#10;🥈 Marcão_Truco                 🥉 Leticia_Reis&#10;      4.820                                4.210" android:textColor="@color/amber" android:textSize="16sp" />
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:background="@drawable/bg_card_active" android:padding="14dp" android:text="#42  Beto (Você)                            3.450 pts&#10;       ↑5 posições hoje                         Elo Ouro I&#10;&#10;Rumo ao Elo Diamante                     Faltam 150 pts" android:textColor="@color/text" />
+            <TextView style="@style/SectionTitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="Mesa de Líderes" />
+            <TextView style="@style/Card" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="#4  ValeteSinistro                         3.980 pts&#10;     78% Vitória • 4 Vidas Méd." android:textColor="@color/text" />
+            <TextView style="@style/Card" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="#5  TioBeto_Manilha                    3.820 pts&#10;     72% Vitória • Sequência 6x" android:textColor="@color/text" />
+            <TextView style="@style/Card" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="#6  DamaDeEspadas                    3.650 pts&#10;     68% Vitórias • Clube Coringa" android:textColor="@color/text" />
+            <TextView style="@style/PrimaryButton" android:layout_width="match_parent" android:layout_height="46dp" android:layout_marginTop="10dp" android:onClick="openProfile" android:text="◎ Pular para minha colocação (#42)" />
+            <TextView style="@style/SectionTitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="18dp" android:text="Recompensas da Temporada" />
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:background="@drawable/bg_card_gold" android:padding="14dp" android:text="SEU TIER ATUAL: Ouro                     PRÓXIMO: Diamante&#10;Baú de Ouro • 25.000 Fichas               Baú Mítico Zap&#10;Moldura Blefador • Garantido              +180 pts necessários" android:textColor="@color/amber" />
+        </LinearLayout>
+    </ScrollView>
+    <include android:id="@+id/bottomNav" layout="@layout/include_bottom_nav" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

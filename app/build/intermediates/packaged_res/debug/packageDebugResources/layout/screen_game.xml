@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_felt"
+    android:padding="16dp">
+
+    <TextView android:id="@+id/round" style="@style/Body" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="●  RODADA 1 DE 5  •  1 Carta&#10;SALA: #TL-4829" android:textColor="@color/mint" android:textStyle="bold" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:id="@+id/lives" style="@style/Card" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginTop="14dp" android:text="SUAS VIDAS   🧡🧡🧡🧡🧡                                  5 / 5" android:textColor="@color/text" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/round" />
+    <TextView android:id="@+id/playerTop" style="@style/Card" android:layout_width="142dp" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:gravity="center" android:text="Lucas                🧡3&#10;▣  • Pensando..." android:textColor="@color/text" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/lives" />
+    <TextView android:id="@+id/table" android:layout_width="230dp" android:layout_height="220dp" android:gravity="center" android:text="▯        ┌─────┐&#10;BARALHO  │  7  │  MANILHA&#10;          │  ♥  │&#10;          └─────┘&#10;          VIRA DA RODADA" android:textColor="@color/amber" android:textSize="17sp" app:layout_constraintBottom_toTopOf="@id/question" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/playerTop" />
+    <TextView android:id="@+id/question" style="@style/SectionTitle" android:layout_width="0dp" android:layout_height="wrap_content" android:gravity="center" android:text="Sem ver sua carta, você faz essa rodada?" android:textAlignment="center" app:layout_constraintBottom_toTopOf="@id/buttons" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+    <LinearLayout android:id="@+id/buttons" android:layout_width="0dp" android:layout_height="64dp" android:layout_marginBottom="64dp" android:orientation="horizontal" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent">
+        <TextView style="@style/PrimaryButton" android:layout_width="0dp" android:layout_height="match_parent" android:layout_marginEnd="6dp" android:layout_weight="1" android:onClick="openRoundResult" android:text="✓ FAÇO&#10;(1 Ponto)" />
+        <TextView style="@style/PrimaryButton" android:layout_width="0dp" android:layout_height="match_parent" android:layout_marginStart="6dp" android:layout_weight="1" android:background="@drawable/bg_danger" android:onClick="openDefeat" android:text="⊘ NÃO FAÇO&#10;(0 Ponto)" android:textColor="@color/white" />
+    </LinearLayout>
+    <TextView style="@style/Caption" android:layout_width="0dp" android:layout_height="48dp" android:background="@drawable/bg_card" android:gravity="center_vertical" android:paddingHorizontal="12dp" android:text="⚠ Regra: Se apostar que não faz e sua carta for a mais forte da mesa, você perde 1 vida!" android:textColor="@color/amber" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_app">
+
+    <include android:id="@+id/header" layout="@layout/include_header" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ScrollView android:layout_width="0dp" android:layout_height="0dp" android:fillViewport="true" android:paddingHorizontal="16dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/header">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_horizontal" android:orientation="vertical" android:paddingVertical="16dp">
+            <TextView android:layout_width="80dp" android:layout_height="80dp" android:background="@drawable/bg_card" android:gravity="center" android:text="💔" android:textSize="38sp" />
+            <TextView style="@style/Title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="VOCÊ FOI ELIMINADO!" android:textColor="@color/red" />
+            <TextView style="@style/Body" android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center" android:text="Você errou os palpites cruciais e perdeu todas as 5 vidas na Rodada 4." />
+            <TextView style="@style/Card" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="18dp" android:text="◉  Beto (Você)       ELIMINADO       0 / 5 VIDAS&#10;     Nível 18 • Blefador Teimoso&#10;&#10;Aposta Perdida   -500 Fichas       Consolação   +35 XP" android:textColor="@color/text" />
+            <TextView style="@style/SectionTitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="18dp" android:text="♔ SITUAÇÃO DA MESA" />
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:background="@drawable/bg_card_gold" android:padding="14dp" android:text="1º  Marcão_Truco    LÍDER                 ♥♥♥ 3 Vidas&#10;      Palpites cravados na mosca" android:textColor="@color/text" />
+            <TextView style="@style/Card" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="2º  Leticia_Reis                                  ♥♥ 2 Vidas&#10;      Ainda na briga pelo pote" android:textColor="@color/text" />
+            <TextView style="@style/Card" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="3º  Você (Beto) • R4                           ♡ 0 Vidas&#10;      Eliminado na Rodada 4" android:textColor="@color/muted" />
+            <TextView style="@style/SectionTitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="18dp" android:text="▣ O QUE DEU ERRADO?" />
+            <TextView style="@style/Card" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="Palpites Furados                  Maior Tombo&#10;3 erros                                  Rodada 3&#10;Diferença fatal no cálculo      -2 vidas ao pedir 3 e fazer só 1&#10;&#10;Vazas Ganhas: 2                   Blefes Sofridos: 2" android:textColor="@color/text" />
+            <TextView style="@style/Card" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:text="💡 Dica do Truco Loko&#10;Quando a vira for alta, guarde o Espadilha para as últimas vazas." android:textColor="@color/amber" />
+            <TextView style="@style/GoldButton" android:layout_width="match_parent" android:layout_height="54dp" android:layout_marginTop="18dp" android:onClick="openGame" android:text="↻ PEDIR REVANCHE" />
+            <TextView style="@style/SecondaryButton" android:layout_width="match_parent" android:layout_height="48dp" android:layout_marginTop="8dp" android:onClick="openSpectator" android:text="◉ Espectar Mesa          Sair p/ Lobby" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_app">
+
+    <include
+        android:id="@+id/header"
+        layout="@layout/include_header"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clipToPadding="false"
+        android:fillViewport="true"
+        android:paddingHorizontal="16dp"
+        app:layout_constraintBottom_toTopOf="@id/bottomNav"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/header">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingVertical="16dp">
+
+            <LinearLayout
+                style="@style/Card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_card_gold"
+                android:orientation="vertical">
+
+                <TextView style="@style/Caption" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="⚡ MATCHMAKING INSTANTÂNEO" android:textColor="@color/amber" />
+                <TextView style="@style/Title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="Mesa Rápida 4x4" />
+                <TextView style="@style/Body" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="Apostas automáticas de 500 fichas • Truco Paulista" />
+                <TextView style="@style/GoldButton" android:layout_width="match_parent" android:layout_height="52dp" android:layout_marginTop="14dp" android:onClick="openGame" android:text="▶  JOGAR" />
+            </LinearLayout>
+
+            <TextView style="@style/SectionTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="⚿  Acesso Restrito" />
+
+            <LinearLayout style="@style/Card" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:orientation="vertical">
+                <TextView style="@style/SectionTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Criar Sala Privada" android:textSize="15sp" />
+                <TextView style="@style/Body" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Configure regras para jogar com amigos" />
+                <TextView style="@style/PrimaryButton" android:layout_width="match_parent" android:layout_height="44dp" android:layout_marginTop="12dp" android:onClick="openGame" android:text="☷  Criar Mesa Privada" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/Card" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:orientation="vertical">
+                <TextView style="@style/SectionTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Entrar com Código" android:textSize="15sp" />
+                <TextView style="@style/Body" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Digite o PIN compartilhado pelo anfitrião" />
+                <TextView android:layout_width="match_parent" android:layout_height="52dp" android:layout_marginTop="12dp" android:background="@drawable/bg_secondary_button" android:gravity="center" android:letterSpacing="0.3" android:onClick="openGame" android:text="7   4   •   •      ENTRAR →" android:textColor="@color/amber" android:textSize="19sp" />
+            </LinearLayout>
+
+            <TextView style="@style/SectionTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="22dp" android:text="⚱  Salas Públicas" />
+
+            <TextView style="@style/Card" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:onClick="openGame" android:text="Mesa dos Mestres                      3/4&#10;Criada por ValeteSinistro • Aposta: 1.000 fichas&#10;&#10;Rodada: 2/5     ♥ 5 Vidas                  Entrar →" android:textColor="@color/text" android:textSize="14sp" />
+            <TextView style="@style/Card" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:onClick="openSpectator" android:text="Truco Insano                              5/6&#10;Criada por ReiDoBlefe • 6 Jogadores (3v3)&#10;&#10;Rodada: 1/5     ◉ 2.500 fichas       Espectar" android:textColor="@color/text" android:textSize="14sp" />
+            <TextView style="@style/Card" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:onClick="openGame" android:text="Amigos do Bar                           2/4&#10;Criada por TioBeto • Modo Descontraído&#10;&#10;Turno: 15s       ♥ 3 Vidas                  Entrar →" android:textColor="@color/text" android:textSize="14sp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <include
+        android:id="@+id/bottomNav"
+        layout="@layout/include_bottom_nav"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

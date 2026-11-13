@@ -1,0 +1,191 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/kleitonmendes/Downloads/Truco-Loko/app/src/main/AndroidManifest.xml:2:1-18:12
+INJECTED from /Users/kleitonmendes/Downloads/Truco-Loko/app/src/main/AndroidManifest.xml:2:1-18:12
+INJECTED from /Users/kleitonmendes/Downloads/Truco-Loko/app/src/main/AndroidManifest.xml:2:1-18:12
+INJECTED from /Users/kleitonmendes/Downloads/Truco-Loko/app/src/main/AndroidManifest.xml:2:1-18:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/f69ec04c9e01104ade5a7b3664850374/transformed/constraintlayout-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/d644f0e69cb7f4b6b60f808bae13d03d/transformed/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/222804ee3327feafb851572fca658e00/transformed/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/bfe1454db9f1039c4d01753ff15a4597/transformed/appcompat-resources-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/3a05b8bc342c4affcfef9fb65d01e60e/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/df5f920d1fa8eb17c0c4012004846e29/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/ab3fdf05f00a1a01dbea8216d759b923/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/d9ec91ad604cf7a3964524e5d69cda22/transformed/activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/0053eea157131796b9a67c4575deebba/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/24e080b03654280e6fe68b9e6613e7c9/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/43f542fe774282fca410fd8fbcde8d66/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.3.2] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/3d396f44340929d194cec74dfcff55aa/transformed/core-1.3.2/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/bb1b505b2e3e3b9cdc4b74647971c052/transformed/profileinstaller-1.4.0/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/dd6fc6e018dd86bd245eaa0ebcf3c0f6/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/2e4d8059e4139a248dc2a9fec7dac9d3/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/487b331335a56fcd572d3342d6d1501f/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/3c2f2463fdfca67cf5385269cc05ca3b/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/b1016baa0f1c6a0ff7d2334d754613ee/transformed/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/e642bf7dd3924a382d50510fc3e8ce93/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/4d4f830b61827b33f790057970f47139/transformed/savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/713f48107ae0daa9bcffbf7e134d26ed/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/edb157b4fda6a6065f87d81e1b9d64c4/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/277e7392086add9f85980977570ec8d2/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/22af4e5bb26547c38bf05671e66df01d/transformed/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+	package
+		INJECTED from /Users/kleitonmendes/Downloads/Truco-Loko/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/kleitonmendes/Downloads/Truco-Loko/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/kleitonmendes/Downloads/Truco-Loko/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/kleitonmendes/Downloads/Truco-Loko/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/kleitonmendes/Downloads/Truco-Loko/app/src/main/AndroidManifest.xml:3:5-17:19
+INJECTED from /Users/kleitonmendes/Downloads/Truco-Loko/app/src/main/AndroidManifest.xml:3:5-17:19
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/f69ec04c9e01104ade5a7b3664850374/transformed/constraintlayout-2.2.0/AndroidManifest.xml:7:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/f69ec04c9e01104ade5a7b3664850374/transformed/constraintlayout-2.2.0/AndroidManifest.xml:7:5-20
+MERGED from [androidx.core:core:1.3.2] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/3d396f44340929d194cec74dfcff55aa/transformed/core-1.3.2/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.2] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/3d396f44340929d194cec74dfcff55aa/transformed/core-1.3.2/AndroidManifest.xml:24:5-89
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/bb1b505b2e3e3b9cdc4b74647971c052/transformed/profileinstaller-1.4.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/bb1b505b2e3e3b9cdc4b74647971c052/transformed/profileinstaller-1.4.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/2e4d8059e4139a248dc2a9fec7dac9d3/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/2e4d8059e4139a248dc2a9fec7dac9d3/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/487b331335a56fcd572d3342d6d1501f/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/487b331335a56fcd572d3342d6d1501f/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+	android:extractNativeLibs
+		INJECTED from /Users/kleitonmendes/Downloads/Truco-Loko/app/src/main/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.3.2] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/3d396f44340929d194cec74dfcff55aa/transformed/core-1.3.2/AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from /Users/kleitonmendes/Downloads/Truco-Loko/app/src/main/AndroidManifest.xml:6:9-41
+	android:icon
+		ADDED from /Users/kleitonmendes/Downloads/Truco-Loko/app/src/main/AndroidManifest.xml:5:9-58
+	android:allowBackup
+		ADDED from /Users/kleitonmendes/Downloads/Truco-Loko/app/src/main/AndroidManifest.xml:4:9-35
+	android:theme
+		ADDED from /Users/kleitonmendes/Downloads/Truco-Loko/app/src/main/AndroidManifest.xml:7:9-47
+activity#com.trucoloko.app.MainActivity
+ADDED from /Users/kleitonmendes/Downloads/Truco-Loko/app/src/main/AndroidManifest.xml:8:9-16:20
+	android:screenOrientation
+		ADDED from /Users/kleitonmendes/Downloads/Truco-Loko/app/src/main/AndroidManifest.xml:11:13-49
+	android:exported
+		ADDED from /Users/kleitonmendes/Downloads/Truco-Loko/app/src/main/AndroidManifest.xml:10:13-36
+	android:name
+		ADDED from /Users/kleitonmendes/Downloads/Truco-Loko/app/src/main/AndroidManifest.xml:9:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/kleitonmendes/Downloads/Truco-Loko/app/src/main/AndroidManifest.xml:12:13-15:29
+action#android.intent.action.MAIN
+ADDED from /Users/kleitonmendes/Downloads/Truco-Loko/app/src/main/AndroidManifest.xml:13:17-69
+	android:name
+		ADDED from /Users/kleitonmendes/Downloads/Truco-Loko/app/src/main/AndroidManifest.xml:13:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/kleitonmendes/Downloads/Truco-Loko/app/src/main/AndroidManifest.xml:14:17-77
+	android:name
+		ADDED from /Users/kleitonmendes/Downloads/Truco-Loko/app/src/main/AndroidManifest.xml:14:27-74
+uses-sdk
+INJECTED from /Users/kleitonmendes/Downloads/Truco-Loko/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/kleitonmendes/Downloads/Truco-Loko/app/src/main/AndroidManifest.xml
+INJECTED from /Users/kleitonmendes/Downloads/Truco-Loko/app/src/main/AndroidManifest.xml
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/f69ec04c9e01104ade5a7b3664850374/transformed/constraintlayout-2.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/f69ec04c9e01104ade5a7b3664850374/transformed/constraintlayout-2.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/d644f0e69cb7f4b6b60f808bae13d03d/transformed/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/d644f0e69cb7f4b6b60f808bae13d03d/transformed/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/222804ee3327feafb851572fca658e00/transformed/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/222804ee3327feafb851572fca658e00/transformed/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/bfe1454db9f1039c4d01753ff15a4597/transformed/appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/bfe1454db9f1039c4d01753ff15a4597/transformed/appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/3a05b8bc342c4affcfef9fb65d01e60e/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/3a05b8bc342c4affcfef9fb65d01e60e/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/df5f920d1fa8eb17c0c4012004846e29/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/df5f920d1fa8eb17c0c4012004846e29/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/ab3fdf05f00a1a01dbea8216d759b923/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/ab3fdf05f00a1a01dbea8216d759b923/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/d9ec91ad604cf7a3964524e5d69cda22/transformed/activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/d9ec91ad604cf7a3964524e5d69cda22/transformed/activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/0053eea157131796b9a67c4575deebba/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/0053eea157131796b9a67c4575deebba/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/24e080b03654280e6fe68b9e6613e7c9/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/24e080b03654280e6fe68b9e6613e7c9/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/43f542fe774282fca410fd8fbcde8d66/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/43f542fe774282fca410fd8fbcde8d66/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.3.2] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/3d396f44340929d194cec74dfcff55aa/transformed/core-1.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.2] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/3d396f44340929d194cec74dfcff55aa/transformed/core-1.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/bb1b505b2e3e3b9cdc4b74647971c052/transformed/profileinstaller-1.4.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/bb1b505b2e3e3b9cdc4b74647971c052/transformed/profileinstaller-1.4.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/dd6fc6e018dd86bd245eaa0ebcf3c0f6/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/dd6fc6e018dd86bd245eaa0ebcf3c0f6/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/2e4d8059e4139a248dc2a9fec7dac9d3/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/2e4d8059e4139a248dc2a9fec7dac9d3/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/487b331335a56fcd572d3342d6d1501f/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/487b331335a56fcd572d3342d6d1501f/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/3c2f2463fdfca67cf5385269cc05ca3b/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/3c2f2463fdfca67cf5385269cc05ca3b/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/b1016baa0f1c6a0ff7d2334d754613ee/transformed/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/b1016baa0f1c6a0ff7d2334d754613ee/transformed/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/e642bf7dd3924a382d50510fc3e8ce93/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/e642bf7dd3924a382d50510fc3e8ce93/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/4d4f830b61827b33f790057970f47139/transformed/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/4d4f830b61827b33f790057970f47139/transformed/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/713f48107ae0daa9bcffbf7e134d26ed/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/713f48107ae0daa9bcffbf7e134d26ed/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/edb157b4fda6a6065f87d81e1b9d64c4/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/edb157b4fda6a6065f87d81e1b9d64c4/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/277e7392086add9f85980977570ec8d2/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/277e7392086add9f85980977570ec8d2/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/22af4e5bb26547c38bf05671e66df01d/transformed/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/22af4e5bb26547c38bf05671e66df01d/transformed/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+	android:targetSdkVersion
+		INJECTED from /Users/kleitonmendes/Downloads/Truco-Loko/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/kleitonmendes/Downloads/Truco-Loko/app/src/main/AndroidManifest.xml
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/bb1b505b2e3e3b9cdc4b74647971c052/transformed/profileinstaller-1.4.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/487b331335a56fcd572d3342d6d1501f/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/487b331335a56fcd572d3342d6d1501f/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/bb1b505b2e3e3b9cdc4b74647971c052/transformed/profileinstaller-1.4.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/bb1b505b2e3e3b9cdc4b74647971c052/transformed/profileinstaller-1.4.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/bb1b505b2e3e3b9cdc4b74647971c052/transformed/profileinstaller-1.4.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/bb1b505b2e3e3b9cdc4b74647971c052/transformed/profileinstaller-1.4.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/bb1b505b2e3e3b9cdc4b74647971c052/transformed/profileinstaller-1.4.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/bb1b505b2e3e3b9cdc4b74647971c052/transformed/profileinstaller-1.4.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/bb1b505b2e3e3b9cdc4b74647971c052/transformed/profileinstaller-1.4.0/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/bb1b505b2e3e3b9cdc4b74647971c052/transformed/profileinstaller-1.4.0/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/bb1b505b2e3e3b9cdc4b74647971c052/transformed/profileinstaller-1.4.0/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/bb1b505b2e3e3b9cdc4b74647971c052/transformed/profileinstaller-1.4.0/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/bb1b505b2e3e3b9cdc4b74647971c052/transformed/profileinstaller-1.4.0/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/bb1b505b2e3e3b9cdc4b74647971c052/transformed/profileinstaller-1.4.0/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/bb1b505b2e3e3b9cdc4b74647971c052/transformed/profileinstaller-1.4.0/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/bb1b505b2e3e3b9cdc4b74647971c052/transformed/profileinstaller-1.4.0/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/bb1b505b2e3e3b9cdc4b74647971c052/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/bb1b505b2e3e3b9cdc4b74647971c052/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/bb1b505b2e3e3b9cdc4b74647971c052/transformed/profileinstaller-1.4.0/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/bb1b505b2e3e3b9cdc4b74647971c052/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/bb1b505b2e3e3b9cdc4b74647971c052/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/bb1b505b2e3e3b9cdc4b74647971c052/transformed/profileinstaller-1.4.0/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/bb1b505b2e3e3b9cdc4b74647971c052/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/bb1b505b2e3e3b9cdc4b74647971c052/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/bb1b505b2e3e3b9cdc4b74647971c052/transformed/profileinstaller-1.4.0/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/bb1b505b2e3e3b9cdc4b74647971c052/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/kleitonmendes/.gradle/caches/8.14.6/transforms/bb1b505b2e3e3b9cdc4b74647971c052/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:25-92

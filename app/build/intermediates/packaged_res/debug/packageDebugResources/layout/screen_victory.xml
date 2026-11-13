@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_app">
+
+    <include android:id="@+id/header" layout="@layout/include_header" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ScrollView android:layout_width="0dp" android:layout_height="0dp" android:fillViewport="true" android:paddingHorizontal="16dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/header">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_horizontal" android:orientation="vertical" android:paddingVertical="16dp">
+            <TextView android:layout_width="76dp" android:layout_height="76dp" android:background="@drawable/bg_card_gold" android:gravity="center" android:text="★&#10;🏆" android:textColor="@color/amber" android:textSize="24sp" />
+            <TextView style="@style/Caption" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="🔥 CAMPEÃO DA MESA 🔥" android:textColor="@color/amber" />
+            <TextView style="@style/Title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="VITÓRIA ÉPICA!" android:textColor="@color/mint" />
+            <TextView style="@style/Body" android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center" android:text="Todos os adversários zeraram suas 5 vidas. Você foi o único sobrevivente!" />
+            <LinearLayout style="@style/Card" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="18dp" android:orientation="vertical">
+                <TextView style="@style/SectionTitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="◉  Você (Beto)       VENCEDOR" />
+                <TextView style="@style/Body" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="Sobreviveu: ♥♥♥♡♡     3/5" android:textColor="@color/mint" />
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:gravity="center" android:text="Prêmio em Fichas                     XP de Ranking&#10;+2.500                                  +180 XP" android:textColor="@color/amber" android:textSize="16sp" />
+            </LinearLayout>
+            <TextView style="@style/SectionTitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="18dp" android:text="♔ Classificação Final" />
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:background="@drawable/bg_card_active" android:padding="14dp" android:text="1º   Você              CAMPEÃO          ♥ 3 Vidas&#10;       Sobrevivente com 3 vidas             +2.500 Fichas" android:textColor="@color/text" />
+            <TextView style="@style/Card" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="2º   Marcão_Truco                   0 VIDAS&#10;       Caiu no blefe final                    -800 Fichas" android:textColor="@color/muted" />
+            <TextView style="@style/Card" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="3º   Leticia_Reis                     0 VIDAS&#10;       Eliminada na Rodada 4               -1.200 Fichas" android:textColor="@color/muted" />
+            <TextView style="@style/SectionTitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="18dp" android:text="⌁ Seu Desempenho" />
+            <TextView style="@style/Card" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="Palpites Corretos        4/5 rodadas       80% de precisão&#10;&#10;Vidas Perdidas           2 de 5 vidas        Sobrevivência alta&#10;&#10;Maior Manilha             Zap (Paus)           Blefes Vencidos: 3" android:textColor="@color/text" />
+            <TextView style="@style/GoldButton" android:layout_width="match_parent" android:layout_height="54dp" android:layout_marginTop="18dp" android:onClick="openGame" android:text="↻ JOGAR NOVAMENTE" />
+            <TextView style="@style/SecondaryButton" android:layout_width="match_parent" android:layout_height="48dp" android:layout_marginTop="8dp" android:onClick="openLobby" android:text="Voltar ao Lobby          •          Compartilhar" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

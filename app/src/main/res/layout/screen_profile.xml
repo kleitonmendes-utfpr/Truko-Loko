@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_app">
+
+    <include android:id="@+id/header" layout="@layout/include_header" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ScrollView android:layout_width="0dp" android:layout_height="0dp" android:fillViewport="true" android:paddingHorizontal="16dp" app:layout_constraintBottom_toTopOf="@id/bottomNav" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/header">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:paddingVertical="12dp">
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:background="@drawable/bg_card_gold" android:padding="16dp" android:text="◉   Beto (Você)  ✓&#10;      #TL-9921  •  BLEFADOR TEIMOSO&#10;      ⭐ 18       ◉ 24.500       ◆ 120&#10;&#10;Progresso de Maestria                         3.450 / 5.000 XP&#10;━━━━━━━━━━━━━━━━━━━━━━" android:textColor="@color/text" android:textSize="14sp" />
+            <TextView style="@style/SectionTitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="18dp" android:text="▣ Estatísticas da Carreira" />
+            <TextView style="@style/Card" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="▱ PARTIDAS                                    🏆 VITÓRIAS&#10;    248                                              142 (57,2%)&#10;&#10;♨ ZAP DE PAUS                             ◎ PALPITES&#10;    84 vezes                                       74%" android:textColor="@color/text" android:textSize="15sp" />
+            <TextView style="@style/SecondaryButton" android:layout_width="match_parent" android:layout_height="44dp" android:layout_marginTop="14dp" android:text="Histórico de Partidas       Conquistas       Estatísticas" />
+            <TextView style="@style/Caption" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="14dp" android:text="ÚLTIMOS CONFRONTOS                                      Filtrar" />
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:background="@drawable/bg_card_active" android:padding="14dp" android:text="🥇 1º LUGAR   Mesa dos Mestres 4x4      Há 15 min&#10;5 rodadas disputadas • Manilha Zap&#10;&#10;VIDAS: ♥♥♥♡♡                          +2.500 ◉  +180 XP" android:textColor="@color/text" />
+            <TextView style="@style/Card" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="🥉 3º LUGAR   Truco Insano                 Há 2h&#10;Caiu na Rodada 4 • Erro fatal de palpite&#10;&#10;VIDAS: ♡♡♡♡♡                          -500 ◉  +35 XP" android:textColor="@color/text" />
+            <TextView style="@style/Card" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="🥈 2º LUGAR   Mesa Rápida 4x4             Ontem&#10;Caiu na Rodada Final • Pote Dividido&#10;&#10;VIDAS: ♥♡♡♡♡                          +800 ◉  +95 XP" android:textColor="@color/text" />
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:background="@drawable/bg_card_gold" android:padding="14dp" android:text="🏆 CAMPEÃO (5/5)   Amigos do Bar          Há 2 dias&#10;Vitória Perfeita: Todas as 5 vidas intactas!&#10;&#10;VIDAS: ♥♥♥♥♥                         +5.000 ◉  +350 XP" android:textColor="@color/amber" />
+            <TextView style="@style/SecondaryButton" android:layout_width="match_parent" android:layout_height="48dp" android:layout_marginTop="16dp" android:onClick="openRanking" android:text="⌯ Exportar Histórico / Compartilhar Perfil" />
+        </LinearLayout>
+    </ScrollView>
+    <include android:id="@+id/bottomNav" layout="@layout/include_bottom_nav" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
